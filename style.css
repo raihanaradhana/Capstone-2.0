@@ -1,0 +1,179 @@
+* {
+    font-family: 'PT Serif', serif;
+    padding: 0;
+    margin: 0;
+}
+
+#title-part{
+    display: flex;
+    background-color: #F6F4EB;
+    height: 60vh;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.title {
+    display: flex;
+}
+
+.title-p {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    font-size: 1.5rem;
+}
+
+.pp {
+    padding: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#about-part {
+    font-size: 1.2rem;
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.about-illustration {
+    display: flex;
+    padding: 0;
+}
+
+.about-illustration > img {
+    align-self: end;
+    height: 250px;
+    width: 250px;
+}
+
+#skills-part {
+    font-size: 1.2rem;
+}
+
+.skills-row {
+    justify-content: space-between;
+}
+
+.skills-title {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-right: 80px;
+    margin-bottom: 70px;
+}
+
+.svg > img {
+    padding: 0;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.pianist-illustration > img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+
+#footer-part {
+    padding-top: 30px;
+    height: 15vh;
+    color: #F6F4EB;
+    font-size: 1.1rem;
+    background-color: #4682A9;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #F6F4EB;
+    margin-bottom: 10px;
+}   
+
+@media (max-width: 991px) {
+
+    #title-part {
+        height: 70vh;
+    }
+
+    .title-p {
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1.2rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-img {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .pp {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about {
+        font-size: 1.1rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: justify
+    }
+
+    .about-illustration > img {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        align-self: center;
+        width: 170px;
+        height: 170px;
+    }
+
+    .skills {
+        font-size: 1.1rem;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 50px;
+    }
+
+    .pianist-illustration > img {
+        align-self: center;
+        width: 200px;
+        height: 200px;
+    }
+
+    #footer-part {
+        height: 40vh;
+    }
+
+    .trademark-row {
+        margin-bottom: 30px;
+    }
+
+    .contact {
+        margin-bottom: 10px;
+    }
+}
+
